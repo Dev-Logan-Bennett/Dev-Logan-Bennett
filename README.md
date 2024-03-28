@@ -2,7 +2,8 @@
 
 <h3><em>Research Coordinator in the <a href="https://poldracklab.org/">Poldrack Lab</a> at <a href="https://www.stanford.edu/">Stanford University</a></em></h3>
 <details>
-  <summary>TS Types</summary>  
+  <summary><strong>TS interfaces</strong></summary>
+
   
   ```typescript
   interface Job {
