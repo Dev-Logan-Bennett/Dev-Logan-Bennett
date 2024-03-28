@@ -1,10 +1,50 @@
 <h1 align="center">Hey 👋, I'm Logan</h1>
 
-<p><em>Research Coordinator in the <a href="https://poldracklab.org/">Poldrack Lab</a> at <a href="https://www.stanford.edu/">Stanford University</a></em></p>
+<h3><em>Research Coordinator in the <a href="https://poldracklab.org/">Poldrack Lab</a> at <a href="https://www.stanford.edu/">Stanford University</a></em></h3>
+<details>
+  <summary>TS Types</summary>  
+  
+  ```typescript
+  interface Job {
+  employer: string;
+  department: string;
+  mentors: string[];
+}
 
-```javascript
-const Logan = {
-  code: [JavaScript, TypeScript, HTML, CSS, Python],
+interface Seeking {
+  actively: boolean;
+  ofInterest: string[];
+}
+
+interface Interests {
+  research: string[];
+  seeking: Seeking;
+}
+
+interface Education {
+  degree: string;
+  institution: string;
+  year: number;
+  honors: string;
+}
+
+interface Person {
+  code: string[];
+  tools: string[];
+  research: string[];
+  job: Job;
+  interests: Interests;
+  hobbies: string[];
+  education: Education;
+}
+  ```
+</details>
+
+### 💭 About me 
+
+```typescript
+const Logan: Person = {
+  code: ["JavaScript", "TypeScript", "HTML", "CSS", "Python"],
   tools: ["Tailwind CSS", "React", "Node", "Next.js", "Styled-Components", "Docker"],
   research: ["fMRI", "EEG", "open-source", "reproducibility", "cognitive tasks"],
   job: {
@@ -21,12 +61,14 @@ const Logan = {
   },
   hobbies: ["biking", "hiking", "volleyball"],
   education: {
-      degree: "BSc in Neuroscience", // dabbled in CS too 
+      degree: "BSc in Neuroscience",
       institution: "Temple University",
       year: 2023,
       honors: "Summa Cum Laude"
-  };
+  }
+};
 ```
+
 <!--
 **Dev-Logan-Bennett/Dev-Logan-Bennett** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
