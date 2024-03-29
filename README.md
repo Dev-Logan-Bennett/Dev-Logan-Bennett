@@ -29,7 +29,7 @@ interface Education {
   honors: string;
 }
 
-interface Person {
+interface Me {
   code: string[];
   tools: string[];
   research: string[];
@@ -44,7 +44,7 @@ interface Person {
 ### 💭 About me 
 
 ```typescript
-const Logan: Person = {
+const Logan: Me = {
   code: ["JavaScript", "TypeScript", "HTML", "CSS", "Python"],
   tools: ["Tailwind CSS", "React", "Node", "Next.js", "Styled-Components", "Docker"],
   research: ["fMRI", "EEG", "open-source", "reproducibility", "cognitive tasks"],
