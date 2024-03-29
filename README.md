@@ -1,6 +1,12 @@
 <h1 align="center">Hey 👋, I'm Logan</h1>
 
 <h3><em>Research Coordinator in the <a href="https://poldracklab.org/">Poldrack Lab</a> at <a href="https://www.stanford.edu/">Stanford University</a></em></h3>
+
+- ⚙️ use daily: `.js`, `.html`, `.css`, `.py`
+- 🌱 learning `.rs` and `.go`
+- 💬 ping me about: gaming, mountain biking, watercoloring
+- 🎂 guilty pleasure: reality tv 
+
 <details>
   <summary><strong>TS interfaces</strong></summary>
 
