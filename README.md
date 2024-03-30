@@ -7,6 +7,10 @@
 - 💬 ping me about: gaming, mountain biking, watercoloring
 - 🎂 guilty pleasure: reality tv 
 
+---
+
+### 💭 About me 
+
 <details>
   <summary><strong>TS interfaces</strong></summary>
 
@@ -47,8 +51,6 @@ interface Me {
   ```
 </details>
 
-### 💭 About me 
-
 ```typescript
 const Logan: Me = {
   code: ["JavaScript", "TypeScript", "HTML", "CSS", "Python"],
@@ -76,6 +78,34 @@ const Logan: Me = {
 };
 ```
 
+---
+
+#### Can you find my middle name? (And other hidden words?): 
+
+| R | A | D | J | A | N | G |
+|---|---|---|---|---|---|---|
+| U | J | S | T | A | T | O |
+| S | S | O | H | B | M | T |
+| T | P | N | R | C | C | Y |
+| L | S | O | E | D | L | P |
+| A | O | T | E | N | A | E |
+| N | G | E | E | C | I | N |
+
+<details>
+  <summary><strong>Give up? Click for the solution:</strong></summary>
+  
+#### **X** marks the spot:
+
+| R | A | D | J | A | N | G |
+|---|---|---|---|---|---|---|
+| U | X | S | T | A | T | O |
+| S | S | X | H | B | M | T |
+| T | P | N | X | C | C | Y |
+| L | S | O | E | X | L | P |
+| A | O | T | E | N | X | E |
+| N | G | E | E | C | I | X |
+
+</details>
 <!--
 **Dev-Logan-Bennett/Dev-Logan-Bennett** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
